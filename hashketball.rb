@@ -167,7 +167,6 @@ def team_colors(t_name)
         if info[:player_name] == p_name
           result = info[:shoe]
         end
-      end
   end
   result
 end
