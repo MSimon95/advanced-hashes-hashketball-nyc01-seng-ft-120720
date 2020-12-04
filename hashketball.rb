@@ -173,8 +173,15 @@ def team_names
   result
 end
 
-def player_numbers 
-
+def player_numbers (t_name)
+  binding.pry
+    result = " "
+  game_hash.each do |key, value|
+    if t_name == value[:team_name]
+      result = value[:colors]
+    end
+  end
+  result
 end
 
 
