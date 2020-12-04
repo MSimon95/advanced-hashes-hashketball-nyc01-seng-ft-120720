@@ -164,7 +164,7 @@ def team_colors(t_name)
     if t_name == value[:team_name]
       result = value[:colors]
       # binding.pry
-
+    end
   end
   result
 end
