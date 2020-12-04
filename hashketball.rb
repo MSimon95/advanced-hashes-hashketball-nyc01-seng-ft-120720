@@ -1,4 +1,5 @@
 # Write your code below game_hash
+require 'pry'
 def game_hash
   {
     home: {
@@ -128,6 +129,7 @@ end
 def player_helper
   game_hash[:home][:players].merge(game_hash[:away][:players])
 end
+binding.pry 
 # Write code here
 def num_points_scored(player)
   player_helper[:players][:points]
