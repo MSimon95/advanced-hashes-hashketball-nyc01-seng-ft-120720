@@ -133,6 +133,7 @@ end
 # Write code here
 # binding.pry
 def num_points_scored(player)
+  result = nil
   game_hash.each do |key, value|
     players_stat = value[:players]
       players_stat.each do |info|
