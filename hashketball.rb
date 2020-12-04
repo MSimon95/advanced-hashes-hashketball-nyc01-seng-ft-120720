@@ -177,13 +177,13 @@ def player_numbers (t_name)
   game_hash.each do |key, value|
     p_stat = value[:players]
     p_stat.each do |stat|
-      stat
+     result << stat[:number]
     end
-    binding.pry
-    if t_name == value[:team_name]
+
+    # if t_name == value[:team_name]
       
-      result = value[]
-    end
+    #   result = value[]
+    # end
   end
   result
 end
