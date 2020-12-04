@@ -135,7 +135,8 @@ end
 def num_points_scored(player)
   game_hash.each do |key, value|
     players_stat = value[:players]
-    # binding.pry 
+    
+   binding.pry 
   end
 end
 
