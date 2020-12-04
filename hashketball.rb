@@ -130,7 +130,6 @@ def player_helper
    game_hash[:home][:players].concat(game_hash[:away][:players])
    
 end
- binding.pry
 # Write code here
 # binding.pry
 def num_points_scored(player)
