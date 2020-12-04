@@ -159,8 +159,9 @@ def shoe_size(p_name)
   result
 end
 
-def
-
+def team_colors(t_name)
+  t_name
+  binding.pry
 end
 
 
