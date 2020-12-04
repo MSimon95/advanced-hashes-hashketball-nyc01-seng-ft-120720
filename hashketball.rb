@@ -164,9 +164,10 @@ def team_colors(t_name)
   t_color = value[:colors]
       t_color.each do |info|
         if info[:player_name] == t_name
+          binding.pry
           result = info[:shoe]
+          
         end
-        binding.pry
       end
   end
   result
