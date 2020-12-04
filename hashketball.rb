@@ -172,6 +172,7 @@ def team_names
   result = []
   t_names = []
   t_names = game_hash[:home][:team_name]
+  
   result << t_names
 
 result
