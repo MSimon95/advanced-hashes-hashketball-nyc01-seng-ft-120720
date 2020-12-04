@@ -130,5 +130,5 @@ def player_helper
 end
 # Write code here
 def num_points_scored(player)
-  game_hash[]
+  player_helper
 end
