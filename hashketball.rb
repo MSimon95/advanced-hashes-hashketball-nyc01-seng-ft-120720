@@ -160,13 +160,14 @@ def shoe_size(p_name)
 end
 
 def team_colors(t_name)
-      result = " "
+  result = " "
   game_hash.each do |key, value|
-    t_color = value[:colors]
-      # players_stat.each do |info|
-        if info[:player_name] == p_name
+  t_color = value[:colors]
+      t_color.each do |info|
+        if info[:player_name] == t_name
           result = info[:shoe]
         end
+      end
   end
   result
 end
