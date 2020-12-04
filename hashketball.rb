@@ -125,8 +125,9 @@ def game_hash
     }
   }
 end
-
+def player_helper
+end
 # Write code here
 def num_points_scored(player)
-  game_hash
+  game_hash[]
 end
