@@ -171,9 +171,8 @@ end
 def team_names 
   result = [(game_hash[:home][:team_name]), (game_hash[:away][:team_name])]
 end
-binding.pry
+
 def player_numbers (t_name)
-  binding.pry
     result = " "
   game_hash.each do |key, value|
     if t_name == value[:team_name]
