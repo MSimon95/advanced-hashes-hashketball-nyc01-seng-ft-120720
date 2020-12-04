@@ -172,7 +172,9 @@ def team_names
   result = []
   t_names = game_hash[:home][:team_name].concat(game_hash[:away][:team_name])
   result << t_names
+
 result
+binding.pry
 end
 
 
