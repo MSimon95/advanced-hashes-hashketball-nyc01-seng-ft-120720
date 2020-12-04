@@ -126,11 +126,11 @@ def game_hash
     }
   }
 end
-def player_helper
-   game_hash[:home][:players].merge(game_hash[:away][:players])
+# def player_helper
+#   game_hash[:home][:players].merge(game_hash[:away][:players])
    
-end
-binding.pry
+# end
+# binding.pry
 # Write code here
 # binding.pry
 def num_points_scored(player)
