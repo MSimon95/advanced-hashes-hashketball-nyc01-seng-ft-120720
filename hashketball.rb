@@ -191,13 +191,10 @@ def player_stats (name)
       player_name = value[:players]
       player_name.each do |p_name|
         if name == p_name[:player_name]
-          
+          result = p_name
         end
-      end 
-    if name == value[:players]
-      result = value[:colors]
+      end
     end
-  end
   result
 end
 
