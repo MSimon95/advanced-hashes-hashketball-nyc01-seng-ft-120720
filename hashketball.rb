@@ -170,7 +170,7 @@ end
 
 def team_names 
   result = []
-  t_names = game_hash[:home][:team_name].join(game_hash[:away][:team_name])
+  t_names = game_hash[:home][:team_name].(game_hash[:away][:team_name])
   result << t_names
 
 result
