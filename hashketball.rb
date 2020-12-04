@@ -130,5 +130,5 @@ def player_helper
 end
 # Write code here
 def num_points_scored(player)
-  player_helper
+  player_helper[:players][:points]
 end
