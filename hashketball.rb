@@ -198,7 +198,7 @@ def player_stats (name)
   result
 end
 
-def 
+def big_shoe
 
 
 
