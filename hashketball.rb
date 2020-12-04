@@ -174,7 +174,6 @@ def team_names
   t_names << game_hash[:home][:team_name]
   t_names << game_hash[:away][:team_name]
   result << t_names
-
 result
 binding.pry
 end
