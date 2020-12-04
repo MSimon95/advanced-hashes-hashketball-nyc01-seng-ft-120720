@@ -185,5 +185,12 @@ def player_numbers (t_name)
   result
 end
 
+def player_stats (name)
+  result = nil
+  
+end
+
+
+
 
 #end of code
