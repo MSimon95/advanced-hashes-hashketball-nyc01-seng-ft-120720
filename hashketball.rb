@@ -131,7 +131,7 @@ end
 # end
 
 # Write code here
-binding.pry
+# binding.pry
 def num_points_scored(player)
-  game_hash[:home][:players][:points]
+  game_hash[:home][:players]
 end
