@@ -180,7 +180,6 @@ def player_numbers (t_name)
      if t_name == value[:team_name]
        result << stat[:number]
      end
-     
     end
   end
   result
