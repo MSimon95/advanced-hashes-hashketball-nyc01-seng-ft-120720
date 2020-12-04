@@ -128,6 +128,7 @@ def game_hash
 end
 def player_helper
    {game_hash[:home][:players].merge!(game_hash[:away][:players])}
+   binding.pry
 end
 
 # Write code here
