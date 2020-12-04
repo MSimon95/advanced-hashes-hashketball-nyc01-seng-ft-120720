@@ -187,7 +187,12 @@ end
 
 def player_stats (name)
   result = nil
-  
+    game_hash.each do |key, value|
+    if name == value[:players][:player_name]
+      result = value[:colors]
+    end
+  end
+  result
 end
 
 
