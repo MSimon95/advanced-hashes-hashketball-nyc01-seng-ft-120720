@@ -169,11 +169,11 @@ def team_colors(t_name)
 end
 
 def team_names 
-  result = [(game_hash[:home][:team_name]), ()]
-  t_names = []
-  t_names << game_hash[:home][:team_name]
-  t_names << game_hash[:away][:team_name]
-  result << t_names
+  result = [(game_hash[:home][:team_name]), (game_hash[:away][:team_name])]
+  # t_names = []
+  # t_names << game_hash[:home][:team_name]
+  # t_names << game_hash[:away][:team_name]
+  # result << t_names
 result
 binding.pry
 end
