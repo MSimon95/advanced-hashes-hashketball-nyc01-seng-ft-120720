@@ -167,6 +167,7 @@ def team_colors(t_name)
         if info[:player_name] == t_name
           result = info[:shoe]
         end
+        binding.pry
       end
   end
   result
